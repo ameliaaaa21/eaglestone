@@ -1,7 +1,7 @@
 <?php
     $menu_item_page = "contact_us";
 ?>
-@extends('layouts.guest')
+@extends('layouts.template')
 
 @section('content')
 <!-- ======= Contact Me Section ======= -->

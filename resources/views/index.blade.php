@@ -70,28 +70,28 @@
 			</div>
 			<div class="row portfolio-container">
 				<div class="col-lg-4 col-md-6 portfolio-item">
-					<div class="portfolio-img"><img src="{{ asset('img/banner/banner_01.jpg') }}" class="img-fluid" alt=""></div>
+					<div class="portfolio-img"><img src="{{ asset('images/Light Grey Mosaic.jpg') }}" class="img-fluid" alt=""></div>
 					<div class="portfolio-info">
-						<h4>Stone Name</h4>
-          				<p>Stone Category</p>
+						<h4>Light Grey Mosaic</h4>
+          				<p>Pebble</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 portfolio-item">
-					<div class="portfolio-img"><img src="{{ asset('img/banner/banner_01.jpg') }}" class="img-fluid" alt=""></div>
+					<div class="portfolio-img"><img src="{{ asset('images/Slice Pancawarna Peble.jpg') }}" class="img-fluid" alt=""></div>
 					<div class="portfolio-info">
-						<h4>Stone Name</h4>
-          				<p>Stone Category</p>
+						<h4>Slice Pancawarna Pebble</h4>
+          				<p>Pebble</p>
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-6 portfolio-item">
-					<div class="portfolio-img"><img src="{{ asset('img/banner/banner_01.jpg') }}" class="img-fluid" alt=""></div>
+					<div class="portfolio-img"><img src="{{ asset('images/Slice Mix Harmony.jpg') }}" class="img-fluid" alt=""></div>
 					<div class="portfolio-info">
-						<h4>Stone Name</h4>
-          				<p>Stone Category</p>
+						<h4>Slice Mix Harmony</h4>
+          				<p>Pebble</p>
 					</div>
 				</div>
 			</div>
-			<div class="text-center"><a href="products.html" class="btn-browsemore">Browse More</a></div>
+			<div class="text-center"><a href="{{ route('products') }}" class="btn-browsemore">Browse More</a></div>
 		</div>
 	</section>
 </main>
