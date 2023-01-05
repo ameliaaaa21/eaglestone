@@ -36,14 +36,15 @@
 	                	<div class="info-box mt-4">
 	                  		<i class="bx bx-envelope"></i>
 	                  		<h3>Email</h3>
-	                  		<p>contact@example.com</p>
+	                  		<p>wiwien@eaglestone.co.id</p>
+	                  		<p>mkt1@eaglestone.co.id</p>
 	                	</div>
 	              	</div>
 	              	<div class="col-md-6">
 		                <div class="info-box mt-4">
 		                  	<i class="bx bx-phone-call"></i>
 		                  	<h3>Call Us</h3>
-		                  	<p>+1 5589 55488 55</p>
+		                  	<p>+62-313545063</p>
 		                </div>
 	              	</div>
 	            </div>

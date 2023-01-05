@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\ContactUsMailController;
 
 /*
 |--------------------------------------------------------------------------
@@ -26,6 +27,8 @@ Route::get('/gallery', function() { return view('gallery'); })->name('gallery');
 Route::get('/news-and-info', function() { return view('news-and-info'); })->name('news-and-info');
 
 Route::get('/contact-us', function() { return view('contact-us'); })->name('contact-us');
+
+Route::get('/send-email-cp', [ContactUsMailController::class, 'sendEmail'])->name('send-email-cp');
 
 
 Auth::routes();

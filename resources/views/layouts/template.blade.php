@@ -33,10 +33,14 @@
     </head>
     <body>
         <header>
-            <div id="header" class="justify-content-center align-items-center">
+            <div id="header" class="justify-content-center align-items-center" style="margin-top: -3%;">
                 <div class="header-container">
-                    <h1>Eagle Stone (Logo)</h1>
-                    <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry. (Motto)</h2>
+
+                    <div class="container" style="align-items: center;display: flex;justify-content: center;">
+                        <img src="{{ asset('img/logo_2.png') }}" width="20%" height="auto" style="float: left;"><h1 style="margin-left: -2%;">Eagle Stone</h1>
+                    </div>
+                    
+                    <h2 style="margin-top: -5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. (Motto)</h2>
                 </div>
 
                 <div id="header_navbar" class="d-flex justify-content-center align-items-center">
@@ -46,7 +50,6 @@
                             <li><a class="nav-link" href="{{ route('index') }}#about">About Us</a></li>
                             <li><a class="nav-link {{isset($menu_item_page) && $menu_item_page == 'products'? 'active': '' }}" href="{{ route('products') }}">Products</a></li>
                             <li><a class="nav-link {{isset($menu_item_page) && $menu_item_page == 'gallery'? 'active': '' }}" href="{{ route('gallery') }}">Gallery</a></li>
-                            <li><a class="nav-link" href="#">News & Info</a></li>
                             <li><a class="nav-link {{isset($menu_item_page) && $menu_item_page == 'contact_us'? 'active': '' }}" href="{{ route('contact-us') }}">Contact</a></li>
                         </ul>
                         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -65,18 +68,26 @@
                 
                 <h3>Eagle Stone</h3>
                 <p>
-                    Jl. Lorem Ipsum XX <br>
-                    Surabaya <br>
-                    <strong>Phone & Fax:</strong> 031–3545063<br>
-                    <strong>Email:</strong> mkt1@eaglestone.co.id<br>
+                    ARCADIA HOTEL, Jalan Rajawali 9-11<br>
+                    Surabaya - 60175, Indonesia <br>
+                    <strong>Phone:</strong> +62-313545063<br>
+                    <strong>Email:</strong> wiwien@eaglestone.co.id<br> mkt1@eaglestone.co.id<br>
                 </p>
+
                 <div class="social-links">
                     <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                     <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                     <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                     <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
                 </div>
-                <div class="copyright">
+                <div class="container">
+                    <p style="margin-bottom: -1%;">Other business :</p>
+                    <a href="https://eaglefreight.co.id/" target="_blank">
+                        <img src="{{ asset('img/favicon_eagle.png') }}" width="100px" style="margin-left: 1%;">   
+                    </a><h5>Eagle Freight Logistik</h5><p style="font-size: 12px;">International Freight Forwarding & Trucking</p>
+                    
+                </div>
+                <div class="copyright" style="margin-top: 3%;">
                     &copy; Copyright 2022 <strong><span>Eagle Stone</span></strong>. All Rights Reserved
                 </div>
             </div>

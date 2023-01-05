@@ -17,47 +17,52 @@
     	<div class="row portfolio-container">
 
       		<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-        		<div class="portfolio-img"><img src="{{ asset('img/portfolio/portfolio-1.jpg') }}" class="img-fluid" alt=""></div>
+        		<div class="portfolio-img"><img src="{{ asset('img/gallery/gallery_1.jpg') }}" class="img-fluid" alt=""></div>
       		</div>
 
       		<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-        		<div class="portfolio-img"><img src="{{ asset('img/portfolio/portfolio-2.jpg') }}" class="img-fluid" alt=""></div>
+        		<div class="portfolio-img"><img src="{{ asset('img/gallery/gallery_3.jpg') }}" class="img-fluid" alt=""></div>
       		</div>
 
       		<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-        		<div class="portfolio-img"><img src="{{ asset('img/portfolio/portfolio-3.jpg') }}" class="img-fluid" alt=""></div>
+        		<div class="portfolio-img"><img src="{{ asset('img/gallery/gallery_2.jpg') }}" class="img-fluid" alt=""></div>
         		
       		</div>
 
       		<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-        		<div class="portfolio-img"><img src="{{ asset('img/portfolio/portfolio-4.jpg') }}" class="img-fluid" alt=""></div>
+        		<div class="portfolio-img"><img src="{{ asset('img/gallery/gallery_4.jpg') }}" class="img-fluid" alt=""></div>
         		
       		</div>
 
       		<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-	            <div class="portfolio-img"><img src="{{ asset('img/portfolio/portfolio-5.jpg') }}" class="img-fluid" alt=""></div>
+	            <div class="portfolio-img"><img src="{{ asset('img/gallery/gallery_10.jpg') }}" class="img-fluid" alt=""></div>
 	            
       		</div>
 
       		<div class="col-lg-4 col-md-6 portfolio-item filter-app">
-	            <div class="portfolio-img"><img src="{{ asset('img/portfolio/portfolio-6.jpg') }}" class="img-fluid" alt=""></div>
+	            <div class="portfolio-img"><img src="{{ asset('img/gallery/gallery_5.jpg') }}" class="img-fluid" alt=""></div>
 	            
       		</div>
 
       		<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-	            <div class="portfolio-img"><img src="{{ asset('img/portfolio/portfolio-7.jpg') }}" class="img-fluid" alt=""></div>
+	            <div class="portfolio-img"><img src="{{ asset('img/gallery/gallery_7.jpg') }}" class="img-fluid" alt=""></div>
 	            
       		</div>
 
       		<div class="col-lg-4 col-md-6 portfolio-item filter-card">
-	            <div class="portfolio-img"><img src="{{ asset('img/portfolio/portfolio-8.jpg') }}" class="img-fluid" alt=""></div>
+	            <div class="portfolio-img"><img src="{{ asset('img/gallery/gallery_11.jpg') }}" class="img-fluid" alt=""></div>
 	            
       		</div>
 
       		<div class="col-lg-4 col-md-6 portfolio-item filter-web">
-	            <div class="portfolio-img"><img src="{{ asset('img/portfolio/portfolio-9.jpg') }}" class="img-fluid" alt=""></div>
+	            <div class="portfolio-img"><img src="{{ asset('img/gallery/gallery_9.jpg') }}" class="img-fluid" alt=""></div>
 	            
       		</div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-img"><img src="{{ asset('img/gallery/gallery_6.jpg') }}" class="img-fluid" alt=""></div>
+              
+          </div>
     	</div>
 		</div>
 </section><!-- End My Portfolio Section -->
