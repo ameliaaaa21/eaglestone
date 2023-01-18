@@ -33,14 +33,14 @@
     </head>
     <body>
         <header>
-            <div id="header" class="justify-content-center align-items-center" style="margin-top: -3%;">
+            <div id="header" class="justify-content-center align-items-center" style="margin-top: -2%;">
                 <div class="header-container">
 
                     <div class="container" style="align-items: center;display: flex;justify-content: center;">
-                        <img src="{{ asset('img/logo_2.png') }}" width="20%" height="auto" style="float: left;"><h1 style="margin-left: -2%;">Eagle Stone</h1>
+                        <img src="{{ asset('img/test2.png') }}" width="400px" height="auto">
                     </div>
                     
-                    <h2 style="margin-top: -5%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. (Motto)</h2>
+                    <h2><strong>Small Enough to Care, But Big Enough to Provide Excellent Quality</strong></h2>
                 </div>
 
                 <div id="header_navbar" class="d-flex justify-content-center align-items-center">
@@ -83,7 +83,7 @@
                 <div class="container">
                     <p style="margin-bottom: -1%;">Other business :</p>
                     <a href="https://eaglefreight.co.id/" target="_blank">
-                        <img src="{{ asset('img/favicon_eagle.png') }}" width="100px" style="margin-left: 1%;">   
+                        <img src="{{ asset('img/favicon_eagle.png') }}" width="100px" style="margin-left: 2.5%;">   
                     </a><h5>Eagle Freight Logistik</h5><p style="font-size: 12px;">International Freight Forwarding & Trucking</p>
                     
                 </div>

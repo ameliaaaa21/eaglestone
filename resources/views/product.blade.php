@@ -11,7 +11,7 @@
 			<div class="section-title">
 	  			<span>PRODUCTS</span>
 	  			<h2>PRODUCTS</h2>
-	  			<p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+	  			<p>Crafted by nature</p>
 			</div>
 
 	    	<ul id="portfolio-flters" class="d-flex justify-content-center">
